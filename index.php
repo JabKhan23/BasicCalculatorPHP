@@ -54,6 +54,7 @@
         </select>
         <input type="number" name="num02" placeholder="Number Two">
         <button type="submit">Calculate</button>
+        <button type="reset" style="background: #dc3545;">Clear</button>
     </form>
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
